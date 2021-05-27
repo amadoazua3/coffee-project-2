@@ -1,0 +1,87 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.wholePage {
+    background-image: url("img/cool.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.wholePageContainer {
+    margin: 2%;
+    padding: 1%;
+    background-color: #d8dee9;
+    border-radius: 25px;
+}
+
+.jumbotron {
+    /*Coffee background*/
+    /*background-image: url("img/coffee-bean.jpeg");*/
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    height: 10%;
+}
+
+.pageHeader {
+    display: flex;
+    justify-content: center;
+}
+
+/*Background header color*/
+.jumbotron.pageHeader {
+    padding: 5%;
+    margin-top: 0;
+    background-color: #2e3440;
+}
+
+.coffeeHeaderContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1.coffeeHeader {
+    color: #5e81ac;
+    -webkit-text-stroke: 2px black;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.coffeeContainerList {
+    background-color: #3b4252;
+    border-radius: 25px;
+}
+
+.searchButtons {
+    display: flex;
+    flex-direction: column;
+}
+
+.labelText {
+    font-size: 1.5rem;
+    color: #2e3440
+}
+
+.btn.btnColor {
+    background-color: #88c0d0;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#coffees {
+    padding: 2%;
+    color: #d8dee9;
+}
+
+.searchContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
